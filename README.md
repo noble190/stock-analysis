@@ -22,3 +22,13 @@ The year 2018 saw decline for 10/12 stocks analyzed. ENPH and RUN were the only 
 Looking at the results above, it would appear that ENPH would be the best stock to recommend. It was in the top 3 stocks in 2017, and did not decline with the rest of the stocks in 2018. Naturally, a larger dataset would facilitate a better founded recommendation.
 
 ### Refactoring
+
+A part of this exercise has been refactoring a set of code to be more efficient. The original code ran in approximately 0.8 seconds for both 2017 and 2018. After refactoring (details summarized below), our run time was reduced to approximately 0.1 seconds:
+
+2017:
+![Refactored run time - 2017](https://github.com/noble190/stock-analysis/blob/main/resources/VBA_Challenge_2017.png)
+
+2018:
+![Refactored run time - 2018](https://github.com/noble190/stock-analysis/blob/main/resources/VBA_Challenge_2018.png)
+
+## Summary
